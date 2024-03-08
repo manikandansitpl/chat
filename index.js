@@ -70,6 +70,5 @@ io.on('connection', (socket) => {
 
 // Starting the server
 server.listen(3000, () => {
-  console.log("routwer",users)
   console.log('Server running on port 3000');
 });
